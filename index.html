@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Banking System</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="./index.html">Spark Foundation Bank</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./customers.html">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </section>
+  <div class="marquee">
+    <marquee style="background: rgb(45, 93, 225); color: white;">
+        <h4>
+          Hello Customer, Welcome To Sparks Foundation BANK. We will make your transaction safe and easy
+          Thank You !!
+        </h4>
+      </marquee>
+  </div>
+
+  <div id="slider">
+    <div id="headerSlider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#" headerSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#" headerSlider" data-slide-to="1"></li>
+
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.cnbctv18.com/wp-content/uploads/2021/03/banking1-1019x573.jpg?impolicy=website&width=800&height=400" Height="100%" class="d-block w-100">
+          <div class="carousel-caption">
+            <h2>Welcome to our bank</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202110/bank-generic_1200_0-sixteen_nine.jpg?size=948:533" Height="100%" width="100%" class="d-block w-100">
+          <div class="carousel-caption">
+            <h2>Welcome to our bank</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://bl-i.thgim.com/public/opinion/yv37yc/article34312542.ece/alternates/LANDSCAPE_1200/bl14Think1Banks" Height="100%" width="100%" class="d-block w-100">
+          <div class="carousel-caption">
+            <h2>Welcome to our bank</h1>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#" headerSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#" headerSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <br>
+    <br> 
+
+
+    <section id="promo">
+      <div class="container">
+        <p>Transfer Money Safely And Quickly From Anywhere</p>
+        <button id="transfer" type="button" class="btn btn-danger" onclick="transfer()">Transfer Money</button>
+      </div>
+    </section>
+
+
+    <div class="container" id="contact">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Kapurwadi Sector 34</div>
+            <div class="text-two">Thane-west 06</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+91 9834564821</div>
+            <div class="text-two">+91 9967547687</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">sparkfoundation@gmail.com</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Contact Us</div>
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="Enter name">
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Enter email">
+          </div>
+          <div class="input-box message-box">
+            
+          </div>
+          <div class="button">
+            <input type="button" value="Send Now" >
+          </div>
+        </form>
+      </div>
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="footer">
+        <p>Mumbai, India <br>
+          +91 9845729320<br>
+          nksgbbank@gmail.com</p>
+          <p style="font-weight: 500;">Follow Us  on:</p>
+        <div class="media">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="lfooter">
+        © 2021 Copyright:
+      </div>
+    </footer>
+
+    <script>
+      function transfer(){
+        window.open("./customers.html")
+      }
+    </script>
+</body>
+
+</html>
