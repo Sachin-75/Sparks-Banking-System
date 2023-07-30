@@ -3,3 +3,6 @@ Sparks Foundation Web Development Internship Project : Basic Banking System webs
 
 # Website Specification
 Start with a dummy data for upto 10 customers. Customers table with basic fields such as name, email, current balance etc. Transaction status: Transfer table/ Transfer History which records all the transactions
+
+# Website Link
+https://sachin-75.github.io/Sparks-Banking-System.github.io/
